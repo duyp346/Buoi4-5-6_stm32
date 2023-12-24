@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"buoi_5\startup_stm32f411xe.o"
+"buoi_5\main.o"
+"buoi_5\gpio.o"
+"buoi_5\tim.o"
+"buoi_5\stm32f4xx_it.o"
+"buoi_5\stm32f4xx_hal_msp.o"
+"buoi_5\stm32f4xx_hal_tim.o"
+"buoi_5\stm32f4xx_hal_tim_ex.o"
+"buoi_5\stm32f4xx_hal_rcc.o"
+"buoi_5\stm32f4xx_hal_rcc_ex.o"
+"buoi_5\stm32f4xx_hal_flash.o"
+"buoi_5\stm32f4xx_hal_flash_ex.o"
+"buoi_5\stm32f4xx_hal_flash_ramfunc.o"
+"buoi_5\stm32f4xx_hal_gpio.o"
+"buoi_5\stm32f4xx_hal_dma_ex.o"
+"buoi_5\stm32f4xx_hal_dma.o"
+"buoi_5\stm32f4xx_hal_pwr.o"
+"buoi_5\stm32f4xx_hal_pwr_ex.o"
+"buoi_5\stm32f4xx_hal_cortex.o"
+"buoi_5\stm32f4xx_hal.o"
+"buoi_5\stm32f4xx_hal_exti.o"
+"buoi_5\system_stm32f4xx.o"
+--strict --scatter "Buoi_5\Buoi_5.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Buoi_5.map" -o Buoi_5\Buoi_5.axf
